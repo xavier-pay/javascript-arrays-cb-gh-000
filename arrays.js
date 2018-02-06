@@ -6,10 +6,12 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
+  var element = "foo", array = chocolateBars
   array.shift(element)
 }
 
 function addElementToEndOfArray(array, element){
+  var element = "foo", array = chocolateBars
   array.push(element)
 }
 
